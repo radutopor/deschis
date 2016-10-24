@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "710358587377",
+    "firebase_url": "https://deschis-c9413.firebaseio.com",
+    "project_id": "deschis-c9413",
+    "storage_bucket": "deschis-c9413.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710358587377:android:23bd934a0a6b2fa8",
+        "android_client_info": {
+          "package_name": "ro.deschis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710358587377-p60ukv0ktg2cmvj75srsv6f57152n8mc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ro.deschis",
+            "certificate_hash": "C67A5E157E31A14CD4A081C47E1693BACBF1957D"
+          }
+        },
+        {
+          "client_id": "710358587377-qbpdd54v7jlpskrkevc41uoaqfmg4aii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDieIcRBNctU_RTO83UmyYl9Eng9A3rc9c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710358587377-qbpdd54v7jlpskrkevc41uoaqfmg4aii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
