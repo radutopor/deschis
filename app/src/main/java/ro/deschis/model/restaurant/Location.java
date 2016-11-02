@@ -1,6 +1,8 @@
 package ro.deschis.model.restaurant;
 
-public class Location {
+import java.io.Serializable;
+
+public class Location implements Serializable {
     public String addressLine1;
     public String addressLine2;
     public LatLng latLng;

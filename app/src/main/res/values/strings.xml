@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Deschis</string>
+    <plurals name="fmt_rating_count">
+        <item quantity="zero">Nicio recenzie</item>
+        <item quantity="other">(%d)</item>
+    </plurals>
+    <string name="fmt_distance_unit">%skm</string>
+    <string name="fmt_distance_subunit">%sm</string>
+    <string name="fmt_price">%.2f</string>
+    <string name="currency">lei</string>
+    <string name="fmt_minimum_order">Comanda minima: %.2f lei</string>
+    <plurals name="fmt_delivery_cost">
+        <item quantity="zero">Livrare gratuita</item>
+        <item quantity="other">Livrare: %.2f lei</item>
+    </plurals>
 </resources>

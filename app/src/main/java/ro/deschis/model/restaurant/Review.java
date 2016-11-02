@@ -1,6 +1,8 @@
 package ro.deschis.model.restaurant;
 
-public class Review {
+import java.io.Serializable;
+
+public class Review implements Serializable {
     public String user;
     public String date;
     public float rating;

@@ -1,6 +1,8 @@
 package ro.deschis.model.menu;
 
-public class Extra {
+import java.io.Serializable;
+
+public class Extra implements Serializable {
     public String name;
     public float price;
 }

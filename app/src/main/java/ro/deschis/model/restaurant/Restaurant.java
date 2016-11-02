@@ -1,8 +1,10 @@
 package ro.deschis.model.restaurant;
 
+import java.io.Serializable;
 import java.util.Map;
 
-public class Restaurant {
+public class Restaurant implements Serializable {
+    public String id;
     public String name;
     public String tagline;
     public String logo;

@@ -1,8 +1,9 @@
 package ro.deschis.model.menu;
 
+import java.io.Serializable;
 import java.util.Map;
 
-public class MenuItem {
+public class MenuItem implements Serializable {
     public String name;
     public int displayOrder;
     public String description;

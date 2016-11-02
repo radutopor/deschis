@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    tools:layout_margin="@dimen/margin_vertical_regular">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/margin_vertical_regular"
+        android:paddingLeft="@dimen/margin_horizontal_double"
+        android:paddingRight="@dimen/margin_horizontal_double"
+        android:paddingTop="@dimen/margin_vertical_regular">
+
+        <TextView
+            android:id="@+id/notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_vertical_regular"
+            android:gravity="center_horizontal"
+            android:textStyle="italic"
+            tools:text="Oferta! 2 pizza la pret de 1!"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cuisines"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_horizontal_regular"
+                android:layout_weight="1"
+                tools:text="American, Burgers, Ribs"/>
+
+            <RatingBar
+                android:id="@+id/rating_bar"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/margin_horizontal_regular"
+                android:numStars="5"
+                tools:rating="3.4"/>
+
+            <TextView
+                android:id="@+id/review_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                tools:text="(12)"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_vertical_regular"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/delivery_cost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Livrare gratuita"/>
+
+            <TextView
+                android:id="@+id/minimum_order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_horizontal_regular"
+                android:gravity="right"
+                tools:text="Comanda minima: 20 lei"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

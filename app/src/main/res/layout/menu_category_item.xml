@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              tools:layout_marginTop="@dimen/margin_vertical_double">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <View
+            android:id="@+id/underline"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="3"
+            android:background="?colorPrimary"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:paddingBottom="@dimen/margin_horizontal_regular"
+        android:paddingLeft="@dimen/margin_horizontal_double"
+        android:paddingRight="@dimen/margin_horizontal_double"
+        android:paddingTop="@dimen/margin_horizontal_regular"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        tools:text="Pizza"/>
+</LinearLayout>
